@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Play, MessageCircle, CheckCircle2, ExternalLink, Award, CalendarCheck, XCircle, Clock } from 'lucide-react';
+import { Play, MessageCircle, CheckCircle2, ExternalLink, Award, CalendarCheck, Clock } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { useToast } from '../context/ToastContext';
 import { callEdgeFunction } from '../lib/supabase';
